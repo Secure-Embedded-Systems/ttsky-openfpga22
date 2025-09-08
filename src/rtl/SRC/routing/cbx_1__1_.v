@@ -6,6 +6,9 @@
 //	Date: Mon Jan 15 17:23:49 2024
 //-------------------------------------------
 // ----- Verilog module for cbx_1__1_ -----
+
+`default_nettype wire
+
 module cbx_1__1_(prog_clk,
                  chanx_left_in,
                  chanx_right_in,

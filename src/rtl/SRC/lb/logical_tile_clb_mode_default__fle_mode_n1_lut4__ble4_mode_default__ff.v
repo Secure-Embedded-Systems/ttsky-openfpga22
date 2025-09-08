@@ -6,6 +6,9 @@
 //	Date: Mon Jan 15 17:23:49 2024
 //-------------------------------------------
 // ----- Verilog module for logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff -----
+
+`default_nettype wire
+
 module logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff(set,
                                                                               reset,
                                                                               clk,

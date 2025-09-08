@@ -6,6 +6,9 @@
 //	Date: Mon Jan 15 17:23:49 2024
 //-------------------------------------------
 // ----- Verilog module for sb_2__1_ -----
+
+`default_nettype wire
+
 module sb_2__1_(prog_clk,
                 chany_top_in,
                 top_left_grid_right_width_0_height_0_subtile_0__pin_O_3_,

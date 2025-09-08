@@ -6,6 +6,10 @@
 //	Date: Mon Jan 15 17:23:49 2024
 //-------------------------------------------
 // ----- Verilog module for logical_tile_io_mode_physical__iopad -----
+
+`default_nettype wire
+
+
 module logical_tile_io_mode_physical__iopad(prog_clk,
                                             gfpga_pad_GPIO_PAD,
                                             iopad_outpad,

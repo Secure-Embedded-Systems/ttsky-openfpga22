@@ -6,6 +6,9 @@
 //	Date: Mon Jan 15 17:23:49 2024
 //-------------------------------------------
 // ----- Verilog module for cby_0__1_ -----
+
+`default_nettype wire
+
 module cby_0__1_(prog_clk,
                  chany_bottom_in,
                  chany_top_in,

@@ -7,6 +7,10 @@
 //-------------------------------------------
 // ----- BEGIN Grid Verilog module: grid_io_top -----
 // ----- Verilog module for grid_io_top -----
+
+`default_nettype wire
+
+
 module grid_io_top(prog_clk,
                    gfpga_pad_GPIO_PAD,
                    bottom_width_0_height_0_subtile_0__pin_outpad_0_,

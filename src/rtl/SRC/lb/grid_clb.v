@@ -7,6 +7,9 @@
 //-------------------------------------------
 // ----- BEGIN Grid Verilog module: grid_clb -----
 // ----- Verilog module for grid_clb -----
+
+`default_nettype wire
+
 module grid_clb(prog_clk,
                 set,
                 reset,

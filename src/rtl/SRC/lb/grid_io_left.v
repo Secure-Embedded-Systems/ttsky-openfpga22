@@ -7,6 +7,9 @@
 //-------------------------------------------
 // ----- BEGIN Grid Verilog module: grid_io_left -----
 // ----- Verilog module for grid_io_left -----
+`default_nettype wire
+
+
 module grid_io_left(prog_clk,
                     gfpga_pad_GPIO_PAD,
                     right_width_0_height_0_subtile_0__pin_outpad_0_,

@@ -7,6 +7,9 @@
 //-------------------------------------------
 // ----- BEGIN Physical programmable logic block Verilog module: io -----
 // ----- Verilog module for logical_tile_io_mode_io_ -----
+
+`default_nettype wire
+
 module logical_tile_io_mode_io_(prog_clk,
                                 gfpga_pad_GPIO_PAD,
                                 io_outpad,
