@@ -103,6 +103,7 @@ wire [0:0] clk_fm;
 	assign uo_out_wire = {gfpga_pad_GPIO_PAD_fm[11],gfpga_pad_GPIO_PAD_fm[22],gfpga_pad_GPIO_PAD_fm[36],gfpga_pad_GPIO_PAD_fm[45],gfpga_pad_GPIO_PAD_fm[63]};
 
 // ----- Wire unused FPGA I/Os to constants -----
+/*
 	assign gfpga_pad_GPIO_PAD_fm[1] = 1'b0;
 	assign gfpga_pad_GPIO_PAD_fm[2] = 1'b0;
 	assign gfpga_pad_GPIO_PAD_fm[3] = 1'b0;
@@ -145,7 +146,7 @@ wire [0:0] clk_fm;
 	assign gfpga_pad_GPIO_PAD_fm[60] = 1'b0;
 	assign gfpga_pad_GPIO_PAD_fm[61] = 1'b0;
 	assign gfpga_pad_GPIO_PAD_fm[62] = 1'b0;
-
+*/
 endmodule
 // ----- END Verilog module for maskmul_top_formal_verification -----
 
