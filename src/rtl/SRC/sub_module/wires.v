@@ -7,6 +7,9 @@
 //-------------------------------------------
 // ----- BEGIN Verilog modules for regular wires -----
 // ----- Verilog module for direct_interc -----
+
+`default_nettype wire
+
 module direct_interc(in,
                      out);
 //----- INPUT PORTS -----

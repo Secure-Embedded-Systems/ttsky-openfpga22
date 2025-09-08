@@ -6,6 +6,8 @@
 //	Date: Mon Jan 15 17:23:49 2024
 //-------------------------------------------
 // ----- Verilog module for lut4 -----
+`default_nettype wire
+
 module lut4(in,
             sram,
             sram_inv,

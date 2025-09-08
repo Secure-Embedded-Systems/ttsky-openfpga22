@@ -7,6 +7,9 @@
 //-----------------------------------------------------
 // Function    : A native D-type flip-flop with single output
 //-----------------------------------------------------
+
+`default_nettype wire
+
 module DFFQ (
   input CK, // Clock Input
   input D, // Data Input

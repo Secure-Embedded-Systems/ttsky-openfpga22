@@ -7,6 +7,9 @@
 //-------------------------------------------
 // ----- Template Verilog module for DFFSRQ -----
 // ----- Verilog module for DFFSRQ -----
+
+`default_nettype wire
+
 module DFFSRQ(SET,
               RST,
               CK,

@@ -7,6 +7,9 @@
 //-----------------------------------------------------
 // Function    : A minimum general purpose I/O
 //-----------------------------------------------------
+
+`default_nettype wire
+
 module GPIO (
   input A, // Data output
   output Y, // Data input

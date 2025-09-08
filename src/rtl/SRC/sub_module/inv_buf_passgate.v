@@ -6,6 +6,9 @@
 //	Date: Mon Jan 15 17:23:49 2024
 //-------------------------------------------
 // ----- Verilog module for const0 -----
+
+`default_nettype wire
+
 module const0(const0);
 //----- OUTPUT PORTS -----
 output [0:0] const0;

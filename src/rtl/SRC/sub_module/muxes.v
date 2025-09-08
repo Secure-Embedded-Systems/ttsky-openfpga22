@@ -6,6 +6,9 @@
 //	Date: Mon Jan 15 17:23:49 2024
 //-------------------------------------------
 // ----- Verilog module for mux_tree_tapbuf_size6 -----
+
+`default_nettype wire
+
 module mux_tree_tapbuf_size6(in,
                              sram,
                              sram_inv,

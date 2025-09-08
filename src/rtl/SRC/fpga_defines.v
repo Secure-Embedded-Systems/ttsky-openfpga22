@@ -6,4 +6,4 @@
 //	Date: Mon Jan 15 17:23:49 2024
 //-------------------------------------------
 `define ENABLE_TIMING 1
-
+`default_nettype wire
