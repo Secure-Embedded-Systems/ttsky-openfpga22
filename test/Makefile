@@ -5,7 +5,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = project.v
+PROJECT_SOURCES = ./rtl/dff.v ./rtl/gpio.v ./rtl/SRC/fpga_defines.v ./rtl/SRC/sub_module/inv_buf_passgate.v ./rtl/SRC/sub_module/arch_encoder.v ./rtl/SRC/sub_module/local_encoder.v ./rtl/SRC/sub_module/mux_primitives.v ./rtl/SRC/sub_module/muxes.v ./rtl/SRC/sub_module/luts.v ./rtl/SRC/sub_module/wires.v ./rtl/SRC/sub_module/memories.v ./rtl/SRC/sub_module/shift_register_banks.v ./rtl/SRC/lb/logical_tile_io_mode_physical__iopad.v ./rtl/SRC/lb/logical_tile_io_mode_io_.v ./rtl/SRC/lb/logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4.v ./rtl/SRC/lb/logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff.v ./rtl/SRC/lb/logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4.v ./rtl/SRC/lb/logical_tile_clb_mode_default__fle.v ./rtl/SRC/lb/logical_tile_clb_mode_clb_.v ./rtl/SRC/lb/grid_io_top.v ./rtl/SRC/lb/grid_io_right.v ./rtl/SRC/lb/grid_io_bottom.v ./rtl/SRC/lb/grid_io_left.v ./rtl/SRC/lb/grid_clb.v ./rtl/SRC/routing/sb_0__0_.v ./rtl/SRC/routing/sb_0__1_.v ./rtl/SRC/routing/sb_0__2_.v ./rtl/SRC/routing/sb_1__0_.v ./rtl/SRC/routing/sb_1__1_.v ./rtl/SRC/routing/sb_1__2_.v ./rtl/SRC/routing/sb_2__0_.v ./rtl/SRC/routing/sb_2__1_.v ./rtl/SRC/routing/sb_2__2_.v ./rtl/SRC/routing/cbx_1__0_.v ./rtl/SRC/routing/cbx_1__1_.v ./rtl/SRC/routing/cbx_1__2_.v ./rtl/SRC/routing/cby_0__1_.v ./rtl/SRC/routing/cby_1__1_.v ./rtl/SRC/routing/cby_2__1_.v ./rtl/SRC/fpga_top.v ./rtl/SRC/top.v ./rtl/SRC/project.v
 
 ifneq ($(GATES),yes)
 
