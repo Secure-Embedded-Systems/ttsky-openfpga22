@@ -23,7 +23,6 @@ output [0:0] out;
 //----- END Registered ports -----
 
 
-
 // ----- BEGIN Local short connections -----
 // ----- END Local short connections -----
 // ----- BEGIN Local output short connections -----

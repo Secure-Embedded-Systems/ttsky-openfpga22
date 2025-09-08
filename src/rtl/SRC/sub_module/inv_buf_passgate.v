@@ -41,7 +41,8 @@ output [0:0] out;
 //----- END Registered ports -----
 
 // ----- Verilog codes of a regular inverter -----
-	assign out = (in === 1'bz)? $random : ~in;
+	//assign out = (in === 1'bz)? $random : ~in;
+	assign out = ~in;
 
 `ifdef ENABLE_TIMING
 // ------ BEGIN Pin-to-pin Timing constraints -----
@@ -65,7 +66,8 @@ output [0:0] out;
 //----- END Registered ports -----
 
 // ----- Verilog codes of a regular inverter -----
-	assign out = (in === 1'bz)? $random : in;
+	//assign out = (in === 1'bz)? $random : in;
+	assign out = in;
 
 `ifdef ENABLE_TIMING
 // ------ BEGIN Pin-to-pin Timing constraints -----
