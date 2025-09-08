@@ -6,6 +6,8 @@
 //	Date: Mon Jan 15 17:23:49 2024
 //-------------------------------------------
 // ----- Verilog module for fpga_top -----
+`default_nettype wire
+
 module fpga_top(prog_clk,
                 set,
                 reset,
