@@ -60,6 +60,7 @@ module tt_um_openfpga22 (
     // directions: lower nibble inputs, upper nibble outputs
     // --------------------------------------------------------
     assign uio_oe = 8'b11100000; // uio[4:0] inputs, uio[7:5] outputs
+    assign uio_out[4:0] = 5'd0;
 
     maskmul_top_formal_verification dut_0 (
 	.am_0_(ui_in[0]),
