@@ -157,6 +157,7 @@ wire [0:3] mux_tree_tapbuf_size8_5_sram_inv;
 // ----- Net source id 0 -----
 // ----- Net sink id 0 -----
 	assign chanx_right_out[0] = right_top_grid_bottom_width_0_height_0_subtile_0__pin_O_0_[0];
+	assign chanx_right_out[8] = 1'b0;
 // ----- Local connection due to Wire 29 -----
 // ----- Net source id 0 -----
 // ----- Net sink id 1 -----

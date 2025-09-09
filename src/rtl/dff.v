@@ -222,7 +222,7 @@ endmodule //End Of Module
 //               - asynchronous active high reset
 //               - asynchronous active high set
 //-----------------------------------------------------
-/*
+
 module DFFSRQ (
   input SET, // set input
   input RST, // Reset input
@@ -246,8 +246,8 @@ end
 assign Q = q_reg;
 
 endmodule //End Of Module
-*/
 
+/*
 // CUSTOM FOR TSMC CELLS
 module DFFSRQ (
   input SET, // Set input
@@ -268,7 +268,7 @@ module DFFSRQ (
   assign Q_N = nand4;
 
 endmodule
-
+*/
 
 //-----------------------------------------------------
 // Function : A multi-functional D-type flip-flop with 

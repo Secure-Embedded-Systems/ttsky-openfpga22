@@ -102,6 +102,50 @@ wire [0:0] clk_fm;
 	assign uio_out_wire = {gfpga_pad_GPIO_PAD_fm[0],gfpga_pad_GPIO_PAD_fm[30],gfpga_pad_GPIO_PAD_fm[50]};
 	assign uo_out_wire = {gfpga_pad_GPIO_PAD_fm[11],gfpga_pad_GPIO_PAD_fm[22],gfpga_pad_GPIO_PAD_fm[36],gfpga_pad_GPIO_PAD_fm[45],gfpga_pad_GPIO_PAD_fm[63]};
 
+wire _unused = &{gfpga_pad_GPIO_PAD_fm[1] ,
+gfpga_pad_GPIO_PAD_fm[2] ,
+gfpga_pad_GPIO_PAD_fm[3] ,
+gfpga_pad_GPIO_PAD_fm[4] ,
+gfpga_pad_GPIO_PAD_fm[5] ,
+gfpga_pad_GPIO_PAD_fm[6] ,
+gfpga_pad_GPIO_PAD_fm[7] ,
+gfpga_pad_GPIO_PAD_fm[8] ,
+gfpga_pad_GPIO_PAD_fm[9] ,
+gfpga_pad_GPIO_PAD_fm[10],
+gfpga_pad_GPIO_PAD_fm[12],
+gfpga_pad_GPIO_PAD_fm[13],
+gfpga_pad_GPIO_PAD_fm[14],
+gfpga_pad_GPIO_PAD_fm[15],
+gfpga_pad_GPIO_PAD_fm[16],
+gfpga_pad_GPIO_PAD_fm[17],
+gfpga_pad_GPIO_PAD_fm[18],
+gfpga_pad_GPIO_PAD_fm[19],
+gfpga_pad_GPIO_PAD_fm[20],
+gfpga_pad_GPIO_PAD_fm[21],
+gfpga_pad_GPIO_PAD_fm[23],
+gfpga_pad_GPIO_PAD_fm[24],
+gfpga_pad_GPIO_PAD_fm[25],
+gfpga_pad_GPIO_PAD_fm[27],
+gfpga_pad_GPIO_PAD_fm[29],
+gfpga_pad_GPIO_PAD_fm[32],
+gfpga_pad_GPIO_PAD_fm[37],
+gfpga_pad_GPIO_PAD_fm[38],
+gfpga_pad_GPIO_PAD_fm[39],
+gfpga_pad_GPIO_PAD_fm[43],
+gfpga_pad_GPIO_PAD_fm[46],
+gfpga_pad_GPIO_PAD_fm[49],
+gfpga_pad_GPIO_PAD_fm[51],
+gfpga_pad_GPIO_PAD_fm[52],
+gfpga_pad_GPIO_PAD_fm[54],
+gfpga_pad_GPIO_PAD_fm[56],
+gfpga_pad_GPIO_PAD_fm[57],
+gfpga_pad_GPIO_PAD_fm[58],
+gfpga_pad_GPIO_PAD_fm[59],
+gfpga_pad_GPIO_PAD_fm[60],
+gfpga_pad_GPIO_PAD_fm[61],
+gfpga_pad_GPIO_PAD_fm[62]};
+
+
 // ----- Wire unused FPGA I/Os to constants -----
 /*
 	assign gfpga_pad_GPIO_PAD_fm[1] = 1'b0;

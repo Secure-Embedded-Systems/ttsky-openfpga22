@@ -32,6 +32,7 @@ output [0:0] out;
 // ----- BEGIN Local output short connections -----
 // ----- END Local output short connections -----
 
+/*
 	TGATE TGATE_0_ (
 		.in(in[0]),
 		.sel(mem),
@@ -43,6 +44,9 @@ output [0:0] out;
 		.sel(mem_inv),
 		.selb(mem),
 		.out(out));
+*/
+	assign out = mem ? in[0] :
+             mem_inv ? in[1] : 1'b0;  // or 'bz if you want tri-state
 
 endmodule
 // ----- END Verilog module for mux_tree_tapbuf_basis_input2_mem1 -----
@@ -74,6 +78,7 @@ output [0:0] out;
 // ----- BEGIN Local output short connections -----
 // ----- END Local output short connections -----
 
+/*
 	TGATE TGATE_0_ (
 		.in(in[0]),
 		.sel(mem),
@@ -85,6 +90,12 @@ output [0:0] out;
 		.sel(mem_inv),
 		.selb(mem),
 		.out(out));
+*/
+ // if mem=1, pick in[0]; if mem_inv=1, pick in[1]
+  assign out = mem ? in[0] :
+               mem_inv ? in[1] : 1'b0; // or 'bz if it should float
+
+
 
 endmodule
 // ----- END Verilog module for mux_tree_basis_input2_mem1 -----
@@ -116,6 +127,7 @@ output [0:0] out;
 // ----- BEGIN Local output short connections -----
 // ----- END Local output short connections -----
 
+/*
 	TGATE TGATE_0_ (
 		.in(in[0]),
 		.sel(mem),
@@ -127,6 +139,11 @@ output [0:0] out;
 		.sel(mem_inv),
 		.selb(mem),
 		.out(out));
+*/
+
+ // if mem=1, pick in[0]; if mem_inv=1, pick in[1]
+  assign out = mem ? in[0] :
+               mem_inv ? in[1] : 1'b0; // or 'bz if it should float
 
 endmodule
 // ----- END Verilog module for lut4_mux_basis_input2_mem1 -----
